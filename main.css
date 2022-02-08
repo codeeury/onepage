@@ -3,22 +3,70 @@ body {
   font-size: 16px;
 }
 
-.inner {
+header {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  background-color: gray;
+  display: block;
+}
+
+header .inner {
   width: 1200px;
-  background-color: black;
+  height: 120px;
+  position: relative;
+  margin: auto;
+ 
 }
 
-.inner nav {
-  background-color: blue;
+header .inner .logo {
+  position: absolute;
+  left: 80px;
+  top: 30px;
 }
 
-.inner nav ul {
+header .inner nav {
+  display: block:
+}
+
+header .inner nav Ul {
+  top: 30px;
+  right: 0;
   display: flex;
+  position: absolute;
+}
+
+header .inner nav Ul li {
+  padding: 0 20px 0 20px;
+}
+
+.about {
+  width: 100%;
+  height: 400px;
+  background-color: yellow;
+
+}
+
+.about .inner {
+  width: 1200px;
+  margin: auto;
   position: relative;
 }
 
-.inner nav ul li {
-  padding: 0 50px 0 50px;
-  right: 50px;
+.about .inner .title {
+ position: absolute;
+ left: 80px;
+ top: 30px;
+}
+
+.about .inner p {
   position: absolute;
+  left: 80px;
+  top: 80px;
+  display: block;
+  transition: all .5s ;
+}
+
+.about .inner p:hover {
+  color: lime;
 }
