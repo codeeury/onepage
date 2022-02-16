@@ -9,13 +9,14 @@ body {
   background: cover;
   position: relative;
   color: #212121;
+  z-index: -10;
 }
 body:before {
   content: "";
   background: linear-gradient(to top, #d9cab3, transparent);
   position: absolute;
   width: 100%;
-  height: 60%;
+  height: 100%;
   bottom: 0;
 }
 a {
@@ -30,7 +31,7 @@ h1 {
 
 .header {
   background-color: white;
-  height: 150px;
+  height: 100px;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -38,14 +39,14 @@ h1 {
 
 .header .inner {
   background-color: white;
-  height: 150px;
+  height: 100px;
   width: 1200px;
   margin: auto;
   position: relative;
 }
 
 .header .inner .logo {
-  top: 50px;
+  top: 40px;
   left: 50px;
   position: absolute;
 }
@@ -59,7 +60,7 @@ h1 {
 }
 
 .header .inner .gnb .gnb-list {
-  top: 50px;
+  top: 40px;
   right: 50px;
   display: flex;
   flex-direction: row;
@@ -103,15 +104,13 @@ h1 {
   position: absolute;
 }
 .section1 .inner .contents {
-
   top: 400px;
   left: 300px;
   position: absolute;
   transition: all, 0.3s linear;
 }
 .section1 .inner .contents:hover {
-  color: #212121;
-  background-color: #92dbbd;
+  color: #d9cab3;
 }
 
 /* section2 */
@@ -133,63 +132,73 @@ h1 {
   top: 250px;
 }
 .section2 .skills-group .group1 {
- 
 }
 .section2 .skills-group .group1 .group1-list {
-  width:800px;
+  width: 800px;
   display: flex;
 }
-.section2 .skills-group .group1 .group1-list .group1-list-item{
+.section2 .skills-group .group1 .group1-list .group1-list-item {
   padding: 0 80px 0 0px;
   box-sizing: border-box;
 }
 .section2 .skills-group .group2 {
   margin: 80px 0;
- 
 }
 .section2 .skills-group .group2 .group2-list {
-  width:800px;
+  width: 800px;
   display: flex;
 }
-.section2 .skills-group .group2 .group2-list .group2-list-item{
+.section2 .skills-group .group2 .group2-list .group2-list-item {
   padding: 0 80px 0 0px;
   box-sizing: border-box;
 }
 .section2 .skills-group .group3 {
   margin: 80px 0;
- 
 }
 .section2 .skills-group .group3 .group3-list {
-  width:800px;
+  width: 800px;
   display: flex;
 }
-.section2 .skills-group .group3 .group3-list .group3-list-item{
+.section2 .skills-group .group3 .group3-list .group3-list-item {
   padding: 0 80px 0 0px;
   box-sizing: border-box;
 }
-<section class="section2">
-<h1 class="skills">SKILLS</h1>
-<ul class="skills-group">
-  <li class="group1">
-    <ul class="group1-list">
-      <li group1-list-item>Photoshop</li>
-      <li group1-list-item>Lightroom</li>
-      <li group1-list-item>Illustrator</li>
-      <li group1-list-item>XD</li>
-      <li group1-list-item>Premiere</li>
-    </ul>
-  </li>
-  <li class="group2">
-    <ul class="group2-list">
-      <li group2-list-item>Sktetchup</li>
-      <li group2-list-item>CAD</li>
-    </ul>
-  </li>
-  <li class="group3">
-    <ul class="group3-list">
-      <li class="group3-list-item">html/css</li>
-      <li class="group3-list-item">javascripts</li>
-    </ul>
-  </li>
-</ul>
-</section>
+.section3 {
+  width: auto;
+  height: 800px;
+  display: block;
+  background-color: #f6f6f6;
+}
+.section3 .inner {
+  position: relative;
+}
+.section3 .inner .inner-list {
+  width: 1200px;
+  display: block;
+  margin: auto;
+  padding: 650px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.section3 .inner .inner-list .inner-list-item {
+  flex-grow: 1;
+}
+
+.footer {
+}
+.footer .footer-group1 {
+}
+.footer .footer-group1 .footer-title {
+}
+.footer .footer-group1 .fotter-conents {
+}
+.footer .footer-group2 {
+}
+.footer .footer-group2 .footer-group2-des {
+}
+.footer .footer-group2 .footer-group2-des .footer-group2-des-title {
+}
+
+.footer .footer-group2 .footer-group2-des .footer-group2-des-contents {
+}
