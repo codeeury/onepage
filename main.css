@@ -1,11 +1,10 @@
 /* common */
 body {
-  box-sizing: border-box;
   font-family: "Montserrat", "Nunito Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.8em;
-  width: 100%;
+  width: auto;
   height: 4500px;
   background-color: #6d9886;
   background: cover;
@@ -19,6 +18,7 @@ body:before {
   height: 100%;
   bottom: 0;
   width: 100%;
+  z-index: -1;
 }
 a {
   color: #212121;
@@ -59,7 +59,6 @@ h1 {
   margin-left: 30px;
 }
 .header .inner .gnb .gnb-list .gnb-list-link {
-  cursor: pointer;
 }
 
 .header .inner .gnb .gnb-list .gnb-list-link:hover {
