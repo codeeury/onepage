@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.8em;
-  height: 6000px;
+  height: 4500px;
   background-color: #6d9886;
   background: cover;
   position: relative;
@@ -72,6 +72,7 @@ h1 {
 }
 
 .header .inner .gnb .gnb-list .gnb-list-link {
+  cursor: pointer;
   transition: all, 0.3s;
 }
 
@@ -168,6 +169,7 @@ h1 {
   height: 800px;
   display: block;
   background-color: #f6f6f6;
+  z-index: 1;
 }
 .section3 .inner {
   position: relative;
