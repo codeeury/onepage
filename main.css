@@ -31,30 +31,41 @@ h1 {
 /* header */
 
 .header {
+  height: 200px;
 }
 
 .header .inner {
+  width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
 }
 
 .header .inner .logo {
 }
 
 .header .inner .logo img {
+  width: 50%;
 }
 
 .header .inner .gnb {
 }
 
 .header .inner .gnb .gnb-list {
+  display: flex;
 }
 
 .header .inner .gnb .gnb-list .gnb-list-item {
+  margin-left: 30px;
 }
 
 .header .inner .gnb .gnb-list .gnb-list-link {
+  transition: all 0.3sec;
 }
 
 .header .inner .gnb .gnb-list .gnb-list-link:hover {
+  color: #d9cab3;
 }
 
 /* media query */
