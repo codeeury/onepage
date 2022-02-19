@@ -35,7 +35,6 @@ h1 {
 }
 
 .header .inner {
-  width: 1300px;
   margin: auto;
   display: flex;
   justify-content: space-between;
