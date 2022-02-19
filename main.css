@@ -1,5 +1,6 @@
 /* common */
 body {
+  box-sizing: border-box;
   font-family: "Montserrat", "Nunito Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -40,31 +41,27 @@ h1 {
 .header .inner {
   background-color: white;
   height: 100px;
-  width: 1200px;
+  width: 1300px;
+  padding: 40px 100px 0;
+  box-sizing: border-box;
   margin: auto;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header .inner .logo {
-  top: 40px;
-  left: 50px;
-  position: absolute;
 }
 
 .header .inner .logo img {
-  width: 45%;
-  left: 30px;
+  width: 40%;
 }
 
 .header .inner .gnb {
 }
 
 .header .inner .gnb .gnb-list {
-  top: 40px;
-  right: 50px;
   display: flex;
   flex-direction: row;
-  position: absolute;
 }
 
 .header .inner .gnb .gnb-list .gnb-list-item {
