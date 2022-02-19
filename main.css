@@ -61,7 +61,6 @@ h1 {
 }
 
 .header .inner .gnb .gnb-list .gnb-list-link {
-  transition: all 0.3sec;
 }
 
 .header .inner .gnb .gnb-list .gnb-list-link:hover {
