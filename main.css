@@ -59,8 +59,8 @@ h1 {
 .header .inner .gnb .gnb-list .gnb-list-item {
   margin-left: 30px;
 }
-
 .header .inner .gnb .gnb-list .gnb-list-link {
+  cursor: pointer;
 }
 
 .header .inner .gnb .gnb-list .gnb-list-link:hover {
