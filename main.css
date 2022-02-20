@@ -126,6 +126,7 @@ h1 {
 .section3 {
 }
 .section3 .inner {
+  display: flex;
 }
 .section3 .inner .inner-list {
 }
@@ -153,7 +154,7 @@ h1 {
 /* media query */
 @media (max-width: 576px) {
   body {
-    height: 1500px;
+    height: 1900px;
     font-size: 12px;
     display: flex;
     flex-wrap: wrap;
@@ -230,5 +231,40 @@ h1 {
   }
   .section2 .skills-group .group3-list {
     padding: 0 10px;
+  }
+  .section3 {
+    width: 576px;
+    height: 500px;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+  }
+  .section3 .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section3 .inner .inner-list {
+  }
+  .section3 .inner .inner-list .inner-list-item {
+    padding: 10px 0;
+    cursor: pointer;
+    transition: all 0.6s;
+    perspective: 200px;
+  }
+  .section3 .inner .inner-list .inner-list-item:hover {
+    transform: rotateY(365deg);
+  }
+  .footer {
+    width: 576px;
+    height: 150px;
+    box-sizing: border-box;
+    display: flex;
+    justify-items: flex-start;
+  }
+  .footer .footer-group1 {
+    margin: 0 auto;
+  }
+  .footer .footer-group2 {
+    margin: 0 auto;
   }
 }
