@@ -83,6 +83,7 @@ h1 {
 .section1 .inner .about {
 }
 .section1 .inner .contents {
+  width: 500px;
   padding: 10px;
   margin: 0 40px;
   transition: all 0.4s;
@@ -184,6 +185,7 @@ h1 {
   .header .inner .gnb .gnb-list .gnb-list-item {
     margin: auto;
   }
+
   .section1 {
     width: 576px;
     height: 500px;
