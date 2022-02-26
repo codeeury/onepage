@@ -1,3 +1,3 @@
 # onepage
 
-`pesoa-hesse.netlify.app`
+`pessoa-hesse.netlify.app`
