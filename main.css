@@ -221,10 +221,12 @@ h1 {
   .section1 .inner .about {
     text-align: center;
     border: none;
+    margin: auto;
+    display: block;
   }
 
   .section1 .inner .contents {
-    width: 380px;
+    width: 390px;
     padding-top: 20px;
     text-align: center;
     margin: auto;
