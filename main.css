@@ -4,14 +4,13 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.8em;
-  width: auto;
-  height: 4500px;
+  height: 2900px;
   background-color: #6d9886;
   background: cover;
   position: relative;
   color: #212121;
 }
-body:before {
+/* body:before {
   content: "";
   background: linear-gradient(to top, #d9cab3, transparent);
   position: absolute;
@@ -19,7 +18,7 @@ body:before {
   bottom: 0;
   width: 100%;
   z-index: -1;
-}
+} */
 a {
   color: #212121;
   text-decoration: none;
@@ -72,7 +71,7 @@ h1 {
 /* section1 */
 
 .section1 {
-  height: 800px;
+  height: 700px;
   padding: 400px 200px;
   box-sizing: border-box;
 }
@@ -81,68 +80,88 @@ h1 {
   display: flex;
 }
 .section1 .inner .about {
+  border-right: solid black 1px;
+  display: block;
+  padding-right: 20px;
 }
 .section1 .inner .contents {
-  width: 500px;
-  padding: 10px;
+  width: 800px;
   margin: 0 40px;
-  transition: all 0.4s;
 }
 .section1 .inner .contents:hover {
-  color: #d9cab3;
 }
 
 /* section2 */
 
 .section2 {
-  height: 800px;
+  height: 700px;
   padding: 400px 200px;
   box-sizing: border-box;
 }
 .section2 .skills {
 }
 .section2 .skills-group {
-  padding: 10px 0;
+  padding-left: 140px;
 }
 .section2 .skills-group .group1 {
-  padding: 0 0 50px 0;
+  border-left: solid black 1px;
+  padding-left: 20px;
+  display: block;
 }
 .section2 .skills-group .group1 .group1-list {
 }
 .section2 .skills-group .group1 .group1-list .group1-list-item {
 }
 .section2 .skills-group .group2 {
-  padding: 0 0 50px 0;
+  border-left: solid black 1px;
+  padding-left: 20px;
+  display: block;
 }
 .section2 .skills-group .group2 .group2-list {
 }
 .section2 .skills-group .group2 .group2-list .group2-list-item {
 }
 .section2 .skills-group .group3 {
+  border-left: solid black 1px;
+  padding-left: 20px;
+  display: block;
 }
 .section2 .skills-group .group3 .group3-list {
 }
 .section2 .skills-group .group3 .group3-list .group3-list-item {
 }
 .section3 {
+  height: 1000px;
+  padding: 400px 200px;
+  box-sizing: border-box;
 }
 .section3 .inner {
   display: flex;
 }
 .section3 .inner .inner-list {
+  padding-left: 140px;
 }
 .section3 .inner .inner-list .inner-list-item {
+  border-left: solid black 1px;
+  padding-left: 20px;
+  display: block;
 }
 
 .footer {
+  height: 200px;
+  padding-left: 200px;
+  padding-top: 100px;
+  background-color: black;
 }
 .footer .footer-group1 {
+  color: white;
 }
 .footer .footer-group1 .footer-title {
 }
 .footer .footer-group1 .fotter-conents {
 }
 .footer .footer-group2 {
+  color: white;
 }
 .footer .footer-group2 .footer-group2-des {
 }
@@ -152,10 +171,10 @@ h1 {
 .footer .footer-group2 .footer-group2-des .footer-group2-des-contents {
 }
 
-/* media query */
+/* PHONE */
 @media (max-width: 576px) {
   body {
-    height: 1900px;
+    height: 2000px;
     font-size: 12px;
     display: flex;
     flex-wrap: wrap;
@@ -188,7 +207,7 @@ h1 {
 
   .section1 {
     width: 576px;
-    height: 500px;
+    height: 700px;
     padding: 200px 0 0 0;
     box-sizing: border-box;
   }
@@ -199,19 +218,21 @@ h1 {
   }
   .section1 .inner .about {
     text-align: center;
+    border: none;
   }
+
   .section1 .inner .contents {
-    width: 220px;
-    transition: all 0.4s;
+    width: 390px;
+    padding-top: 20px;
     text-align: center;
   }
   .section1 .inner .contents:hover {
-    color: #d9cab3;
+    color: #525252;
   }
 
   .section2 {
     width: 576px;
-    height: 500px;
+    height: 400px;
     padding: 0 0 0 0;
     box-sizing: border-box;
   }
@@ -221,22 +242,33 @@ h1 {
     align-items: center;
   }
   .section2 .skills {
+    margin: aut0;
   }
   .section2 .skills-group {
     display: flex;
+    text-align: center;
+    padding: 0px;
+    padding-top: 20px;
   }
-  .section2 .skills-group .group1-list {
-    padding: 0 10px;
+  .section2 .skills-group .group1 .group1-list {
+    padding: 0px;
+    border: none;
   }
-  .section2 .skills-group .group2-list {
-    padding: 0 10px;
+  .section2 .skills-group .group1 {
+    padding: 0px;
+    border: none;
   }
-  .section2 .skills-group .group3-list {
-    padding: 0 10px;
+  .section2 .skills-group .group2 {
+    padding: 0px;
+    border: none;
+  }
+  .section2 .skills-group .group3 {
+    padding: 0px;
+    border: none;
   }
   .section3 {
     width: 576px;
-    height: 500px;
+    height: 400px;
     padding: 0 0 0 0;
     box-sizing: border-box;
   }
@@ -245,28 +277,35 @@ h1 {
     flex-direction: column;
     align-items: center;
   }
+  .section3 .works {
+    text-align: center;
+  }
   .section3 .inner .inner-list {
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 0;
+    text-align: center;
   }
   .section3 .inner .inner-list .inner-list-item {
     padding: 10px 0;
+    border: none;
     cursor: pointer;
-    transition: all 0.6s;
-    perspective: 200px;
   }
   .section3 .inner .inner-list .inner-list-item:hover {
-    transform: rotateY(365deg);
   }
   .footer {
     width: 576px;
-    height: 150px;
+    height: 300px;
     box-sizing: border-box;
     display: flex;
     justify-items: flex-start;
+    padding: 0px;
   }
   .footer .footer-group1 {
     margin: 0 auto;
   }
   .footer .footer-group2 {
     margin: 0 auto;
+    padding-top: 50px;
   }
 }
