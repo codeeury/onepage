@@ -176,7 +176,7 @@ h1 {
 /* PHONE */
 @media (max-width: 750px) {
   body {
-    height: 2000px;
+    height: 1700px;
     font-size: 12px;
     display: flex;
     flex-wrap: wrap;
@@ -224,7 +224,7 @@ h1 {
   }
 
   .section1 .inner .contents {
-    width: 400px;
+    width: 380px;
     padding-top: 20px;
     text-align: center;
     margin: auto;
